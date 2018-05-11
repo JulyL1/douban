@@ -1,6 +1,3 @@
-# Change Log
-* 2017-3-15：新增 node 服务转发 api 请求
-* 2017-3-17：增加在线[访问地址](http://www.iamsuperman.cn/vue2.x-douban/dist/#/)，node 服务转发 api 请求部署到 heroku
 # 运行项目
 clone项目到本地，进入项目文件夹，安装依赖
 ```javascript
@@ -21,16 +18,7 @@ node index.js
 // HTTP Server is running in http://127.0.0.1:8081
 ```
 
-最后打开浏览器，输入`localhost:8880`即可访问。效果图如下：
-
-![text](../master/static/vue-douban-shrink.gif)
-
-
-**如果遇到本地运行时，豆瓣的图片部分不可见，请参见该 issue：[为什么图片加载会有问题？](https://github.com/superman66/vue2.x-douban/issues/17)**
-
-**戳我查看 [demo](http://superman66.github.io/vue2.x-douban/dist/#/)**
-
-注意：由于heroku在国外，而且我用的是免费版，当长时间没有连接的话，node服务会被休眠。如果处于休眠状态下，用户访问速度会比较慢，还有可能出现接口请求出现错误。遇到这种情况，刷新重试即可。
+最后打开浏览器，输入`localhost:8880`即可访问。
 # 路由
 应用包括下面4个路由
 * `/movies` 首页，包含正在上映榜单和即将上映榜单的电影信息，首页只显示各个榜单的前8条数据；
