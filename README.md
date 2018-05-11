@@ -4,8 +4,8 @@
 # 运行项目
 clone项目到本地，进入项目文件夹，安装依赖
 ```javascript
-git clone https://github.com/superman66/vue2.x-douban.git
-cd vue2.x-douban
+git clone https://github.com/JulyL1/douban
+cd douban
 npm install
 ```
 然后运行项目
