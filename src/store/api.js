@@ -1,5 +1,5 @@
 /**
- * Created by superman on 2016/12/2.
+ * Created by July on 2016/12/2.
  */
 import axios from 'axios';
 
@@ -18,7 +18,7 @@ export function fetch(url) {
   return new Promise((resolve, reject)=> {
     axios.get(HOST + url)
         .then(response => {
-          resolve(response.data);
+          resolve(rsponse.data);
         })
   })
 }

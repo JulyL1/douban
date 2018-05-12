@@ -1,5 +1,5 @@
 /**
- * Created by superman on 2016/12/12.
+ * Created by July on 2016/12/12.
  */
 
 export const FETCH_MOVIES = 'movie/FETCH_MOVIES';
